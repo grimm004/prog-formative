@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 
 <html lang='en'>
-	<head>
-		<meta charset="utf-8"/>
-		<title>Computing</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	</head>
 
-	<body class="container border bg-light">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Programming Formative</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class='collapse navbar-collapse'>
-				<ul class='navbar-nav mr-auto'>
-					<li class="nav-item"><a class="nav-link" href="medical.html">Medical</a></li>
-					<li class="nav-item"><a class="nav-link" href="internet.html">Internet</a></li>
-					<li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
-					<li class="nav-item"><a class="nav-link" href="automation.html">Automation</a></li>
-				</ul>
-			</div>
-		</nav>
-		
-		<div class="text-success text-center">
-			<h1>Computational Automation</h1>
+<head>
+	<meta charset="utf-8"/>
+	<title>Computational Automation</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="styling.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body class="container border bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html">Programming Formative</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class='collapse navbar-collapse'>
+			<ul class='navbar-nav mr-auto'>
+				<li class="nav-item"><a class="nav-link" href="medical.html">Medical</a></li>
+				<li class="nav-item"><a class="nav-link" href="internet.html">Internet</a></li>
+				<li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+				<li class="nav-item"><a class="nav-link" href="automation.html">Automation</a></li>
+			</ul>
 		</div>
-
-		<div class="text-primary">
+	</nav>
+	
+	<div class="top-section">
+		<h1>Computational Automation</h1>
+		<hr>
+	</div>
+	
+	<div class="container">
+		<div id="content" class="row col-md-12" style="padding-top: 15px;">
 			<p>
 			While computing has made a positive contribution in many areas of society, this webpage will focus on that of <b>automation</b>.
 			</p>
@@ -42,10 +46,10 @@
 			In the post-industrial era, computer automation started to kick off. An early example of this was Alan Turing's electro-mechanical machine designed to find combinations to automate the cracking of the Enigma code, something that was previously not reasonably possible.
 			</p>
 			<p>
-			In addition to agricultural and factory automation to increase yield and production, and the use of the <a class='text-secondary' href="/internet.html">internet</a> to automate specialist tasks accross the world from a single control room, other fields such as aviation have greatly benefited from the reliability provided by automation, these days planes practically fly themselves and pilots are just there to monitor systems, this has vastly reduced the number of instances of pilot error. Other safety-critical systems such as hospitals have also benefited from moving to electronic record storage for fast access.
+			In addition to agricultural and factory automation to increase yield and production, and the use of the <a class='text-secondary' href="internet.html">internet</a> to automate specialist tasks accross the world from a single control room, other fields such as aviation have greatly benefited from the reliability provided by automation, these days planes practically fly themselves and pilots are just there to monitor systems, this has vastly reduced the number of instances of pilot error. Other safety-critical systems such as hospitals have also benefited from moving to electronic record storage for fast access.
 			</p>
 			<p>
-			Looking into the future there are plenty of exciting and promising automation technologies. These range from further manufacturing systems such as 3D printing to automatic diagnosis of illness to automated surgury. Many of these new technologies rely on advancements in other computation technologies such as machine learning and AI which makes it hard to predict how far out they are, however it does seem as though the future is exciting.
+			Looking into the future there are plenty of exciting and promising automation technologies. These range from further manufacturing systems such as 3D printing to automatic diagnosis of illness to automated surgury (and other <a class='text-secondary' href="medical.html">medical</a> advancements). Many of these new technologies rely on advancements in other computation technologies such as machine learning and AI which makes it hard to predict how far out they are, however the future does seem exciting.
 			</p>
 			<p>
 			Computational automation however carries a constant concern of job loss as machines take over tasks traditionally done by hand. For example, <a class='text-secondary' href="https://www.pwc.co.uk/services/economics-policy/insights/the-impact-of-automation-on-jobs.html" target="_blank">pwc predicts</a> that 3% of jobs are at risk of automation by the early 2020s. Additionally there are some instances where automation has faild, for example, a project launched in 2002 to automate record sharing in the NHS was eventually <a class='text-secondary' href="https://www.theguardian.com/society/2013/sep/18/nhs-records-system-10bn">dismantled in 2011</a> after around &#163;10bn of wasted taxpayer money. Even with this failure, successful instances of automation rely on advancements in cybersecurity technology to prevent unwanted control of systems (for example autopilot) or access to private data (for example patients' medical records).
@@ -55,8 +59,19 @@
 			</p>
 		</div>
 		
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	</body>
+		<hr>
+		
+		<div id="author">
+			<p>About the author:</p>
+			<footer>
+				<p>Max Grimmett 2018</p>
+			</footer>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+	
 </html>
